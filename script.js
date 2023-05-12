@@ -26,7 +26,9 @@ submit.addEventListener('click', ()=> {
     const messages = ['Good morning!', 'How was your day?', 'Have you had your coffee yet?', 'seems like you are bored', 'So What now', 'Ok', 'lol', 'Get away', 'Nicee', 'GG', 'I dont know', 'keep going', 'any plans today?'];
     const randomizer = Math.floor(Math.random() * messages.length);
     const randomizedMessages = messages[randomizer];
-    if (userInput.value === 'hi') {
+    if (userInput.value === 'hi' || 'yo' || 'hey' || 'sup' || 'hello' ||  'answer' ||  'bot' ||  'heey' ||  'tell me something' ||  'good') {
         botReply.innerHTML = randomizedMessages;
-    };
+    } else {
+        botReply.innerHTML = '...';
+    }
 });
