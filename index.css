@@ -27,7 +27,6 @@ nav button {
     border: none;
     border-radius: 10px;
 }
-
 nav #darkSwitch {
     display: none;
 }
@@ -38,36 +37,22 @@ nav #darkSwitch {
     margin: 300px 20px 130px 20px;
 }
 
-.textbox {
-    margin: 20px 20px 50px 20px;
-}
-
-.main .textbox input{
-    margin: 20px 20px 30px 20px;
+.main .generateButton button {
     border: none;
-    font-size: 30px;
-    width: 380px;
-    height: 60px;
+    margin: 30px;
     border-radius: 10px;
-}
-.main .textbox button {
-    border: none;
-    border-radius: 10px;
-    width: 120px;
-    height: 40px;
+    width: 150px;
+    height: 50px;
     color: rgb(236, 236, 236);
     background-color: rgb(230, 196, 8);
 }
 
-.botReply {
-    margin: 0 auto;
-}
-
+/* Footer Styling*/
 .footer ul {
     list-style: none;
 }
 .footer ul li {
     font-size: 45px;
     float: left;
-    margin: 0px 20px;
+    margin: 90px 20px 0px 40px;
 }
